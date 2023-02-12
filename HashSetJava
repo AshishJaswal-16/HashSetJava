@@ -1,0 +1,137 @@
+import java.util.*;
+
+public class FirstClass{                //HashSet
+    public static void main(String[] args){
+        HashSet<Integer> set1 = new HashSet<>();
+        set1.add(1);
+        set1.add(2);
+        set1.add(3);
+        set1.add(4);
+        set1.add(5);
+        set1.add(1);
+        System.out.println(set1);
+
+        if(set1.contains(1)){
+            System.out.println("Set contains 1");
+        }
+        if(!set1.contains(6)){
+            System.out.println("Does not contains 6");
+        }
+    }
+}
+
+
+
+
+
+
+public class FirstClass{                    //Size of set
+    public static void main(String[] args){
+        HashSet<Integer> set1 = new HashSet<>();
+        set1.add(1);
+        set1.add(2);
+        set1.add(3);
+        set1.add(4);
+        set1.add(5);
+        set1.add(1);
+        System.out.println(set1);
+
+        if(set1.contains(1)){
+            System.out.println("Set contains 1");
+        }
+        if(!set1.contains(6)){
+            System.out.println("Does not contains 6");
+        }
+
+        set1.remove(1);
+        if(!set1.contains(1)){
+            System.out.println("Ste does not contains 1- we deleted 1");
+        }
+
+        System.out.println("Size of the set is :"+set1.size());
+    }
+}
+
+
+
+
+
+
+
+
+
+public class FirstClass{                //remove element
+    public static void main(String[] args){
+        HashSet<Integer> set1 = new HashSet<>();
+        set1.add(1);
+        set1.add(2);
+        set1.add(3);
+        set1.add(4);
+        set1.add(5);
+        set1.add(1);
+        System.out.println(set1);
+
+        if(set1.contains(1)){
+            System.out.println("Set contains 1");
+        }
+        if(!set1.contains(6)){
+            System.out.println("Does not contains 6");
+        }
+
+        set1.remove(1);
+        if(!set1.contains(1)){
+            System.out.println("Ste does not contains 1- we deleted 1");
+        }
+
+        System.out.println("Size of the set is :"+set1.size());
+    }
+}
+
+
+
+
+
+
+
+public class FirstClass{                    //SetIterator
+    public static void main(String[] args){
+        HashSet<Integer> set1 = new HashSet<>();
+        set1.add(1);
+        set1.add(2);
+        set1.add(3);
+        set1.add(4);
+        set1.add(5);
+        set1.add(1);
+        System.out.println(set1);
+
+        if(set1.contains(1)){
+            System.out.println("Set contains 1");
+        }
+        if(!set1.contains(6)){
+            System.out.println("Does not contains 6");
+        }
+
+        set1.remove(1);
+        if(!set1.contains(1)){
+            System.out.println("Ste does not contains 1- we deleted 1");
+        }
+
+        System.out.println("Size of the set is :"+set1.size());
+
+        Iterator it = set1.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
